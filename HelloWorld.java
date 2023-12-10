@@ -1,5 +1,5 @@
 import java.util.*;
-class HelloWorld {
+public class HelloWorld {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String str= sc.nextLine();
@@ -9,6 +9,8 @@ class HelloWorld {
         System.out.println(res);
 
         sc.close();
+        
+        System.out.println(2%2);
     }
 }
 
